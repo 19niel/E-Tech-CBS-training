@@ -1,4 +1,4 @@
-<header>
+<header class="header">
 
     <div class="flex">
         <a href="home.php" class="logo"><img src="img/logo.jpg"></a>
@@ -12,14 +12,14 @@
 
         <div class="icons">
             <i class="bx bxs-user" id="user-btn"></i>
-            <a href="wishlist.php" class="cart-btn"><i class="bx bsx-heart"></i><sup>0</sup> </a>
-            <a href="cart.php" class="cart-btn"><i class="bx bsx-cart-download"></i><sup>0</sup> </a>
+            <a href="wishlist.php" class="cart-btn"><i class="bx bx-heart"></i><sup>0</sup> </a>
+            <a href="cart.php" class="cart-btn"><i class="bx bx-cart-download"></i><sup>0</sup> </a>
             <i class="bx bx-list-plus" id="menu-btn" style="font-size: 2rem;"></i>
        </div>
 
         <div class="user-box">
-            <p> username : <span> <?php echo $_SESSION['user_name']; ?></p>
-            <p> Email: <span> <?php echo $_SESSION['user_email']; ?></p>
+            <p> username : <span> <?php //echo $_SESSION['user_name']; ?></p>
+            <p> Email: <span> <?php //echo $_SESSION['user_email']; ?></p>
             <a href="login.php" class="btn">login</a>
             <a href="register.php" class="btn">register</a>
             <form method="post">
