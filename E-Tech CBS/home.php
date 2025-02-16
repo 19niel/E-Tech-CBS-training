@@ -17,7 +17,19 @@
 <body>
 <?php include 'components/header.php'; ?>        
     <div class="main">
-    <?php include 'components/footer.php'; ?>  
+        <?php include 'components/footer.php'; ?>
+        <div class="home-section">
+            <div class="slider__slider slide1">
+                <div class="overlay"></div>
+                <div class="slide-detail"></div>
+                <h1>Lorem, ipsum dolor. sit</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum?</p>
+                <a href="view_products.php" class="btn">shop now</a>
+            </div>
+            <div class="hero-dec-top"></div>
+            <div class="hero-dec-bottom"></div>
+
+        </div>  
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> 
     <script src="script.js"></script>
