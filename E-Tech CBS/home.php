@@ -18,7 +18,8 @@
 <?php include 'components/header.php'; ?>        
     <div class="main">
         <?php include 'components/footer.php'; ?>
-        <div class="home-section">
+       <section class="home-section">
+       <div class="slider">
             <div class="slider__slider slide1">
                 <div class="overlay"></div>
                 <div class="slide-detail"></div>
@@ -30,7 +31,56 @@
             <div class="hero-dec-bottom"></div>
 
         </div>  
+
+        <!-- slide end -->
+        <div class="slider__slider slide2">
+                <div class="overlay"></div>
+                <div class="slide-detail"></div>
+                <h1>welcome to E-Tech </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum?</p>
+                <a href="view_products.php" class="btn">shop now</a>
+            </div>
+            <div class="hero-dec-top"></div>
+            <div class="hero-dec-bottom"></div>
+        <!-- slide end -->
+        <div class="slider__slider slide3">
+                <div class="overlay"></div>
+                <div class="slide-detail"></div>
+                <h1>welcome to E-Tech </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum?</p>
+                <a href="view_products.php" class="btn">shop now</a>
+            </div>
+            <div class="hero-dec-top"></div>
+            <div class="hero-dec-bottom"></div>
+        <!-- slide end -->
+        <div class="slider__slider slide4">
+                <div class="overlay"></div>
+                <div class="slide-detail"></div>
+                <h1>welcome to E-Tech </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum?</p>
+                <a href="view_products.php" class="btn">shop now</a>
+            </div>
+            <div class="hero-dec-top"></div>
+            <div class="hero-dec-bottom"></div>
+        <!-- slide end -->
+        <div class="slider__slider slide5">
+                <div class="overlay"></div>
+                <div class="slide-detail"></div>
+                <h1>welcome to E-Tech </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum?</p>
+                <a href="view_products.php" class="btn">shop now</a>
+            </div>
+            <div class="hero-dec-top"></div>
+            <div class="hero-dec-bottom"></div>
+        <!-- slide end -->
+
+        <div class="left-arrow"><i class="bx bx-left-arrow"></i></div>
+        <div class="right-arrow"><i class="bx bx-right-arrow"></i></div>
+
     </div>
+
+       </section>
+    <!-- home slider end -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script> 
     <script src="script.js"></script>
     <?php include 'components/alert.php'; ?>        
